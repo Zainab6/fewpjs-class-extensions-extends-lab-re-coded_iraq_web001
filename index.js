@@ -19,7 +19,7 @@ class Triangle extends Polygon {
      
      get isValid(){
       if (this.count===3){
-       return this.sides[1]+this.sides[2]>this.sides[3]
+       return( this.sides[1]+this.sides[2]>this.sides[3])&& (this.sides[2]+this.sides[3]>this.sides[1])&&(this.sides[1]+this.sides[3]>this.sides[2])
       }
       else {
         console.log ("it is not possible to construct a triangle with the given side lengths. ")
