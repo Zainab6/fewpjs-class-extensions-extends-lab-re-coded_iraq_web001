@@ -32,7 +32,7 @@ class Square extends Polygon{
       }
   }
   get area(){
-    this.sides[i]*this.sides[i]
+   return this.sides[0]*this.sides[1]
   }
 }
 let polygon = new Polygon( [ 5, 5, 5 ] )
