@@ -28,8 +28,8 @@ class Triangle extends Polygon {
 class Square extends Polygon{
   get isValid(){
     for(let i = 0; i<this.sides.length;i++){
-      if (this.sides[i] = this.sides[i]){
-        this.perimeter
+      if (this.count===4){
+        this.sides[i] = this.sides[i]
       }
       else {
         console.log("this is not valid")
