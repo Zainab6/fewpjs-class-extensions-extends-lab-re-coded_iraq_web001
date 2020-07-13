@@ -13,8 +13,7 @@ class Polygon{
    for (let i=0;i<this.sides.length;i++){
      sum + this.sides[i]
    }
-      
-    }
+  
   
   
   
