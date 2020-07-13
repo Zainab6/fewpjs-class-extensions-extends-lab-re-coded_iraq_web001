@@ -29,7 +29,7 @@ class Square extends Polygon{
   get isValid(){
     for(let i = 0; i<this.sides.length;i++){
       if (this.count===4){
-        this.sides[i] = this.sides[i]
+       ( this.sides[0] = this.sides[1]) && (this.sides[1] = this.sides[2]) && (this.sides[2] = this.sides[3])
       }
       
     }
