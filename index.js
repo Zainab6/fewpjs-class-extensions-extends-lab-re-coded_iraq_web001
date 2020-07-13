@@ -31,9 +31,7 @@ class Square extends Polygon{
       if (this.count===4){
         this.sides[i] = this.sides[i]
       }
-      else {
-        console.log("this is not valid")
-      }
+      
     }
   }
   get area(){
