@@ -18,8 +18,8 @@ class Polygon{
 class Triangle extends Polygon {
      
      get isValid(){
-      if ((this.sides[1]+this.sides[2])>this.sides[3]){
-       this.perimeter
+      if (this.count===3){
+       this.sides[1]+this.sides[2]>this.sides[3]
       }
       else {
         console.log ("it is not possible to construct a triangle with the given side lengths. ")
