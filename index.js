@@ -4,8 +4,7 @@ class Polygon{
     this.sides = sides
   }
   get countSides(){
-    for(let i = 0; i<this.sides.length;i++){
-     this.sides = this.sides[i]+1
+    return this.sides.length
     }
   }
   get perimeter(){
